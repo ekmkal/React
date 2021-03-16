@@ -1,0 +1,23 @@
+.app{
+  margin: auto;
+}
+
+.mainHeader{
+  text-align: center;
+}
+
+.cityBox {
+  width: 25rem;
+  margin: 4rem auto;
+  padding-left: 2rem;
+  border: 2px solid rgb(197, 190, 190);
+}
+
+.cityName{
+  margin-bottom: 1.5rem;
+}
+
+.cityWeather{
+  margin-bottom: 2.5rem;
+  line-height: 0.25rem;
+}

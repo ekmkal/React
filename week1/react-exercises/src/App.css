@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.exHeader{
+  background-color: rgb(221, 142, 119);
+  margin-top: 2rem;
+}
+
+.guaranteeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.guaranteeItem{
+  margin: 0 2rem;
+}
+
+.guaranteeItem img {
+  width: 4rem;
+}
