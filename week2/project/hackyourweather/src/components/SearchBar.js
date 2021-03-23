@@ -28,7 +28,7 @@ const SearchBar = () => {
 
             // Check for avoiding duplication of a city and the success of the fetching
             !cityWeather.find(city => city.id === newCityWeather.id) && newCityWeather.cod === 200 ?
-                // Preffered to keep the previous cities
+                // Preffered to keep the previous cities to show
                 setCityWeather([...cityWeather, newCityWeather]) 
                 :
                 setCityWeather([...cityWeather]);
