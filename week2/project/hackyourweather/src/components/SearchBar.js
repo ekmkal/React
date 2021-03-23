@@ -22,7 +22,7 @@ const SearchBar = () => {
 
         try {
             const newWeatherData = await fetch(`
-                https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${API_KEY}
+                http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${API_KEY}
             `);
             const newCityWeather = await newWeatherData.json();
 
