@@ -1,0 +1,62 @@
+.app{
+  margin: auto;
+}
+
+.mainHeader{
+  text-align: center;
+}
+
+.searchBar{
+  width: 25rem;
+  margin: 1rem auto;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.textInput{
+  margin-right: 1rem;
+  padding: .5rem 3rem .5rem 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.submit{
+  padding: .5rem 3rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cityBox{
+  width: 25rem;
+  margin: 4rem auto;
+  padding-left: 2rem;
+  border: 2px solid rgb(197, 190, 190);
+}
+
+.cityName{
+  margin-bottom: 1.5rem;
+}
+
+.cityWeather{
+  margin-bottom: 2.5rem;
+  line-height: 0.25rem;
+}
+
+.loader {
+  margin: 1rem auto;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
