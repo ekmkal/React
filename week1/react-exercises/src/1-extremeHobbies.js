@@ -2,11 +2,11 @@ const HobbyList = () => {
     const hobbies = ['Surfing', 'Rock climbing', 'Mountain biking', 'Breakdancing'];
     
     return (
-        <div>
+        <>
             {hobbies.map((hobby, index) => {
                 return <Hobbies key={index} hobby={hobby}/>
             })}
-        </div>
+        </>
     );
 };
 

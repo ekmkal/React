@@ -29,15 +29,15 @@ const guaranteeDetails = [
 function App() {
   return (
     <div className="App">
-      <h3 className="exHeader">Exercise-1</h3>
+      <h3 className="exercise-header">Exercise-1</h3>
       <HobbyList />
 
-      <h3 className="exHeader">Exercise-2</h3>
-      <div className="guaranteeDiv">
+      <h3 className="exercise-header">Exercise-2</h3>
+      <div className="guarantee">
         {guaranteeDetails.map(item => <Guarantee details={item} />)}
       </div>
 
-      <h3 className="exHeader">Exercise-3</h3>
+      <h3 className="exercise-header">Exercise-3</h3>
       <Counter />
     </div>
   );

@@ -3,7 +3,7 @@ import CityBox from './CityBox';
 
 const ListOfCities = ({cityWeather}) => {
     return (
-        <div>
+        <>
             {cityWeather.map(city => {
                 return <CityBox 
                     key={city.weather[0].id}
@@ -17,7 +17,7 @@ const ListOfCities = ({cityWeather}) => {
                     lon={city.coord.lon}
                 />
             })}
-        </div>
+        </>
     );
 };
 

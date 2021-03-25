@@ -2,22 +2,22 @@
   margin: auto;
 }
 
-.mainHeader{
+.main-header{
   text-align: center;
 }
 
-.cityBox {
+.city-box {
   width: 25rem;
   margin: 4rem auto;
   padding-left: 2rem;
   border: 2px solid rgb(197, 190, 190);
 }
 
-.cityName{
+.city-box__header{
   margin-bottom: 1.5rem;
 }
 
-.cityWeather{
+.city-box__weather{
   margin-bottom: 2.5rem;
   line-height: 0.25rem;
 }

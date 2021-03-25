@@ -2,21 +2,21 @@
   text-align: center;
 }
 
-.exHeader{
+.exercise-header{
   background-color: rgb(221, 142, 119);
   margin-top: 2rem;
 }
 
-.guaranteeDiv {
+.guarantee {
   display: flex;
   align-items: center;
   justify-content: space-between;  
 }
 
-.guaranteeItem{
+.guarantee-item{
   margin: 0 2rem;
 }
 
-.guaranteeItem img {
+.guarantee-item img {
   width: 4rem;
 }
