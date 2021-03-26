@@ -3,7 +3,7 @@ import CityBox from './CityBox';
 
 const ListOfCities = ({cityWeather}) => {
     return (
-        <div>
+        <>
             {cityWeather.map(city => {
                 return (
                     <CityBox 
@@ -19,7 +19,7 @@ const ListOfCities = ({cityWeather}) => {
                     />
                 );
             })}
-        </div>
+        </>
     );
 };
 

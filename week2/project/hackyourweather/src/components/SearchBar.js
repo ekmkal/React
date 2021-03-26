@@ -47,17 +47,17 @@ const SearchBar = () => {
     
     return (
         <>
-            <div className="searchBar">
+            <div className="search-bar">
                 <form onSubmit={submitForm}>
                     <input 
-                        className="textInput" 
+                        className="search-bar__input" 
                         type="text" 
                         value={cityName}
                         placeholder="Search City" 
                         onChange={handleInput} 
                     />
                     <input 
-                        className="submit" 
+                        className="search-bar__submit" 
                         type="submit" 
                         value="Search" 
                     />

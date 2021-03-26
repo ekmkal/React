@@ -11,9 +11,9 @@ const CityBox = ({
     lon
 }) => {
     return (
-        <div className="cityBox">
-            <h2 className="cityName">{city}, {country}</h2>
-            <div className="cityWeather">
+        <div className="city-box">
+            <h2 className="city-box__header">{city}, {country}</h2>
+            <div className="city-box__weather">
                 <h3>{weatherMain}</h3>
                 <p>{weatherDesc}</p>
             </div>
