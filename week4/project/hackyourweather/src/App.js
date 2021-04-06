@@ -1,14 +1,19 @@
 import './App.css';
-import cityWeather from './city-weather.json';
-import ListOfCities from './components/ListOfCities';
+import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import SearchBar from './components/SearchBar';
+import CityPage from './components/CityPage';
 
 function App() {
   return (
-    <div className="app">
-      <h1 className="main-header">Weather</h1>
-      <SearchBar />
-    </div>
+    <Router>
+      <div className="app">
+        <h1 className="main-header">Weather</h1>
+        <Switch>
+          <Route exact path='/' component={SearchBar} />
+          <Route path='/:cityId' component={CityPage} />
+        </Switch>
+      </div>
+    </Router>
   );
 };
 
