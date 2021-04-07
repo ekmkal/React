@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.search-bar{
+/* .search-bar{
   width: 25rem;
   margin: 1rem auto;
   padding: 1rem 1rem;
@@ -28,9 +28,9 @@
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-}
+} */
 
-.city-box{
+/* .city-box{
   width: 25rem;
   margin: 4rem auto;
   padding: 1rem 2rem;
@@ -56,9 +56,9 @@
   font-size: 3rem;
   border: none;
   background: none;
-}
+} */
 
-.loader {
+/* .loader {
   margin: 1rem auto;
   border: 16px solid #f3f3f3;
   border-top: 16px solid #3498db;
@@ -71,4 +71,4 @@
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
+} */

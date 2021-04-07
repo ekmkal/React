@@ -1,6 +1,5 @@
-import './App.css';
-import cityWeather from './city-weather.json';
-import ListOfCities from './components/ListOfCities';
+import './styles/App.css';
+// import './App.css';
 import SearchBar from './components/SearchBar';
 
 function App() {
