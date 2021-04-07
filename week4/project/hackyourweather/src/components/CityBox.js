@@ -1,3 +1,4 @@
+import '../styles/city-box.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
 import RemoveCity from './RemoveCity';

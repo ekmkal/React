@@ -1,3 +1,4 @@
+import '../styles/city-box.css'
 import React from 'react';
 import { CgCloseO } from 'react-icons/cg';
 

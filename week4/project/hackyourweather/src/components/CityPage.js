@@ -1,3 +1,5 @@
+import '../styles/city-page.css'
+import '../styles/loader.css'
 import React, { useState, useEffect } from 'react';
 import { useLocation, useHistory } from 'react-router-dom';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';

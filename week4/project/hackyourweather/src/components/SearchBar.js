@@ -1,3 +1,5 @@
+import '../styles/search-bar.css';
+import '../styles/loader.css';
 import React, { useState } from 'react';
 import ListOfCities from './ListOfCities';
 
